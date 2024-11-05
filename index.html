@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="head">Palindrome Checker</h1>
+            <p class="question"><span>Input the Palindrome Phrase:</span></p>
+            <form class="palindrome-form" id="form">
+                <input type="text" placeholder="Palindrome word" id="palindrome-checker" class="input-checker" required>
+                <button type="submit" id="check-palindrome">Check</button>
+            </form>
+            <div class="hint" id="hint-para">
+                <h2 class="head-two">Hint</h2>
+
+                <p class="non-active hint-text custom" id="answer"></p>
+
+                <p class="hint-text">
+                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                    Palindrome is word, phrase, sequence or symbol that is same forward and backward.
+                    Example of Palindrome: madam, racecar.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
